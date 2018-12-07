@@ -1,0 +1,6 @@
+http://jsp.dju.ac.kr/~s20131517/Week02/forwardParamTest.jsp
+http://jsp.dju.ac.kr/~s20131517/Week02/includeColor.jsp
+http://jsp.dju.ac.kr/~s20131517/Week02/pageTest1.jsp
+http://jsp.dju.ac.kr/~s20131517/Week02/paramReceive.jsp
+http://jsp.dju.ac.kr/~s20131517/Week02/scriptMethod.jsp
+http://jsp.dju.ac.kr/~s20131517/Week02/scriptTest.jsp

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+        <a href="index.html" class="nav-link">home</a>
+        <a href="login.html" id="login-status" class="nav-link">login</a>
+        <a href="reg.html" class="nav-link">sign in</a>
+        <a href="upload.html" class="nav-link">upload</a>
+        <a href="update.html" class="nav-link">update</a>
+        <a href="delete.html" class="nav-link">delete</a>
+    </div>
+    <div class="form">
+        <h2>get data</h2>
+        <form action="api" method="get" id="form1">
+            <label>id</label>
+            <input type="text" id="data_id" name="id">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <div class="image_container">
+    </div>
+
+    <h2>update data</h2>
+    <div class="form">
+        <form action="api/edit" method="post" id="form2">
+            <label>id</label>
+            <input type="text" id="resp_id" name="id">
+            <label>description</label>
+            <input type="text" id="description" name="description">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/logincheck.js"></script>
+<script src="js/update.js"></script>
+</html>

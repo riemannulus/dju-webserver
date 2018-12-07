@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>로그인 실습</title>
+  </head>
+  <body>
+    <header>
+      <h2>실습을 환영합니다.</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="www.dju.ac.kr">로그인</a></li>
+        <li><a href="hive.dju.ac.kr">조회</a></li>
+      </ul>
+    </nav>
+    <section>
+      <form action="userReg.jsp" method="post">
+        <fieldset><legend>회원정보</legend>
+          <fieldset> <legend>이름/이메일</legend>
+            <label for="stud_name">이름</label>
+            <input id="stud_name" type="text" name="stud_name" size="20" maxlength="50" required/><br/>
+            <label for="stud_email">이메일</label>
+            <input id="stud_email" type="text" name="stud_email" size="20" maxlength="50" /><br/>
+            <label for="stud_phone">전화번호</label>
+            <input id="stud_phone" type="text" name="stud_phone" size="20" maxlength="50" /><br/>
+          </fieldset>
+          <fieldset><legend>아이디/비밀번호</legend>
+            <label for="stud_id">아이디</label>
+            <input id="stud_id" type="text" name="stud_id" size="20" maxlength="50" required/><br/>
+            <label for="stud_passwd">비밀번호</label>
+            <input id="stud_passwd" type="password" name="stud_passwd" size="20" maxlength="50" required/><br/>
+          </fieldset>
+          <fieldset><legend>성별</legend>
+            <label for="stud_gender1">여자</label>
+            <input id="stud_gender1" type="radio" name="stud_gender" value="여자" checked/>
+            <label for="stud_gender2">남자</label>
+            <input id="stud_gender2" type="radio" name="stud_gender" value="남자" />
+          </fieldset>
+          <fieldset><legend>취미</legend>
+            <label for="stud_hobby1">낚시</label>
+            <input class="id_form" type="checkbox" name="stud_hobby1" value="낚시"/>
+            <label for="stud_hobby1">바둑</label>
+            <input class="id_form" type="checkbox" name="stud_hobby2" value="바둑"/>
+            <label for="stud_hobby1">독서</label>
+            <input class="id_form" type="checkbox" name="stud_hobby3" value="독서"/>
+          </fieldset>
+          <input type="submit" value="회원등록">
+          <input type="reset"  value="취소">
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 20XX Made by Korea. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
